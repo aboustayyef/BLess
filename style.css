@@ -333,10 +333,8 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 26.64px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-family: "Georgia", serif;
+  font-size: 20px;
 }
 /* typography
 -------------------------------------------------------------- */
@@ -357,8 +355,8 @@ h1 {
 }
 h2 {
   line-height: 50.32px;
-  font-size: 34px;
-  font-size: 3.4rem;
+  font-size: 1.8em;
+  margin-bottom: 1em;
 }
 h3 {
   line-height: 41.44px;
@@ -378,6 +376,8 @@ hr {
 }
 /* Text elements */
 p {
+  font-size: 1em;
+  line-height: 1.5em;
   margin-bottom: 1.5em;
 }
 ul,
@@ -443,7 +443,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(0, 121, 152, 0.5);
+  color: rgba(236, 28, 36, 1);
 }
 /* Alignment */
 .alignleft {
@@ -476,12 +476,13 @@ header .gravatar {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0;
-  float: right;
+  float: left;
 }
 header #brand {
   float: left;
-  width: 80%;
-  margin-top: 22px;
+  width: 70%;
+  margin-top: 30px;
+  margin-left: 8%;
 }
 header #brand h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -505,6 +506,8 @@ header #brand h1 span {
 }
 header nav {
   float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 header nav ul {
   list-style: none;
@@ -513,13 +516,14 @@ header nav ul {
 header nav ul li {
   float: left;
   margin: 2px 10px 0 0;
+  padding-right:5px;
 }
 header nav ul li a {
   color: #888888;
   font-size: 14px;
 }
 .container {
-  max-width: 720px;
+  max-width: 700px;
   padding: 20px;
   margin: 0 auto;
   position: relative;
@@ -558,12 +562,16 @@ article .post-meta a:hover {
   color: rgba(136, 136, 136, 0.5);
 }
 article .the-content a {
-  font-weight: 900;
   text-decoration: none;
 }
-article .the-content p {
-  color: #787878;
+
+article .the-content li {
+  margin-bottom:0.5em;
 }
+
+/*article .the-content p {
+  color: #787878;
+}*/
 article .the-content img {
   width: 100%;
   height: auto;
@@ -707,6 +715,9 @@ html[xmlns] .clearfix {
   header hgroup {
     width: 100%;
   }
+  header #brand {
+    margin-left:0;
+  }
 }
 
 /* This section of the css file is adjusted by Mustapha */
@@ -717,9 +728,7 @@ div.gravatar{
 	-webkit-border-radius: 0%;
 	border-radius: 0%;
 }
-header #brand{
-	width: 78%;
-}
+
 a, header nav ul li a {
 	color: #669900;
 }
@@ -731,6 +740,9 @@ article .the-content img {
 
 /*small screens */
 @media all and (max-width:720px){
+  body{
+    font-size:18px;
+  }
 	article .the-content img {
 		width:100%;
 	}
