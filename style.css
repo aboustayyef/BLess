@@ -543,6 +543,11 @@ article .title {
   font-size: 3.8rem;
   font-weight: 700;
 }
+article .caption {
+  font-size: small;
+  opacity: .7;
+}
+
 article .title a {
   text-decoration: none;
   color: #404040;
