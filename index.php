@@ -89,7 +89,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
+							<!--<div class="category"><?php echo get_the_category_list(); ?></div>-->
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->
 						
@@ -150,9 +150,13 @@
 							<div class="category"><?php echo get_the_category_list(); ?></div>
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->						
-						
+	
+						<div>
+							<hr>
+							<p>Do you like this post? consider following its author on <a href ="http://twitter.com/beirutspring">twitter</a>, or following the blog on <a href ="http://facebook.com/beirutspring.page">facebbok</a></p>
+						</div>
+					
 					</article>
-
 				<?php endwhile; ?>
 				
 				<?php

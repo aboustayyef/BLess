@@ -538,10 +538,9 @@ article {
 }
 article .title {
   color: #404040;
-  line-height: 56.24px;
+  line-height: 40px;
   font-size: 38px;
-  font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 article .caption {
   font-size: small;
