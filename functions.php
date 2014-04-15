@@ -50,8 +50,8 @@ function mustapha_me_share(){
 	<div class ="sharing_menu">
 		<ul>
 			<li class ="share_header">Share</li>
-			<a href="<?php echo $facebookURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/MLess/icons/facebook28.png'; ?>" alt=""><span class ="sharetext">Facebook</span></li></a>
-			<a href="<?php echo $twitterURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/MLess/icons/twitter28.png'; ?>" alt=""><span class ="sharetext">Twitter</span></li></a>
+			<a href="<?php echo $facebookURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/BLess/icons/facebook28.png'; ?>" alt=""><span class ="sharetext">Facebook</span></li></a>
+			<a href="<?php echo $twitterURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/BLess/icons/twitter28.png'; ?>" alt=""><span class ="sharetext">Twitter</span></li></a>
 		</ul>
 	</div>
 	<?php
