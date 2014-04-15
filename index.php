@@ -157,7 +157,7 @@
 	
 						<div>
 							<hr>
-							<p>Do you like this post? consider following its author on <a href ="http://twitter.com/beirutspring">twitter</a>, or following the blog on <a href ="http://facebook.com/beirutspring.page">facebbok</a></p>
+							<p>Do you like this post? consider following its author on <a href ="http://twitter.com/beirutspring">twitter</a>, or following the blog on <a href ="http://facebook.com/beirutspring.page">facebook</a></p>
 						</div>
 					
 					</article>
